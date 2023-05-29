@@ -1,0 +1,36 @@
+body {
+  background-image: url(assets/background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  opacity: 0.5;
+}
+
+.container {
+  max-width: 360px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.profile.mdl-card {
+  background: transparent;
+}
+
+.profile>.mdl-card__title {
+  color: whitesmoke;
+}
+
+/* .profile>.mdl-card__title>.mdl-card__title-text { */
+/* text-align: center; */
+/* } */
+
+.profile>.mdl-card__supporting-text {
+  /* text-align: center; */
+  color: whitesmoke;
+}
+
+.profile>.mdl-card__actions {
+  text-align: center;
+}
